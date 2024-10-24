@@ -8,6 +8,10 @@
 
 ---
 
+## Configuraciónde ENVs
+Renombrar el archivo __.env.template___ a __.env__ y cambiar las variables de entorno.
+
+
 ## Project Structure
 
 This project is using Qwik with [QwikCity](https://qwik.dev/qwikcity/overview/). QwikCity is just an extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
@@ -63,3 +67,13 @@ The production build will generate client and server modules by running both cli
 ```shell
 npm run build # or `yarn build`
 ```
+
+## Express Server
+
+This app has a minimal [Express server](https://expressjs.com/) implementation. After running a full build, you can preview the build using the command:
+
+```
+npm run serve
+```
+
+Then visit [http://localhost:8080/](http://localhost:8080/)
